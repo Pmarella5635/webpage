@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover,
+        nav a.active {
+            background-color: #555;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #444;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #fff;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        code {
+            background-color: #555;
+            color: #fff;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>About Me</h1>
+            <p>I am a dedicated and motivated individual with a passion for technology and a drive for excellence. With a background in computer science, I have honed my skills in web development, software engineering, and problem-solving. I thrive in collaborative environments and am always eager to take on new challenges.</p>
+        
+
+            <h1>About This Website</h1>
+            
+            <p>This website is a simple, static website built using HTML and CSS. It consists of three pages: <code>index.html</code>, <code>about.html</code>, and <code>blog.html</code>. The website follows a basic structure with a header, main content area, and footer.</p>
+            
+            <h2>Tech Stack:</h2>
+            <ol>
+                <li><strong>HTML (Hypertext Markup Language)</strong>: HTML is used to structure the content of the web pages. It provides the basic elements such as headings, paragraphs, links, and lists.</li>
+                <li><strong>CSS (Cascading Style Sheets)</strong>: CSS is used to style and visually enhance the HTML elements. In this website, CSS is used to set the background color, font styles, layout, and styling of the navigation menu.</li>
+            </ol>
+            
+            <h2>How it Works:</h2>
+            <ol>
+                <li><strong>Structure</strong>: The website follows a standard HTML structure with the <code>&lt;!DOCTYPE html&gt;</code>, <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code> tags. The <code>&lt;head&gt;</code> section contains metadata like the page title and CSS styles, while the <code>&lt;body&gt;</code> section contains the visible content of the web page.</li>
+                <li><strong>Navigation</strong>: The navigation menu is created using an unordered list (<code>&lt;ul&gt;</code>) inside the <code>&lt;header&gt;</code> section. Each navigation link is represented by a list item (<code>&lt;li&gt;</code>) with an anchor tag (<code>&lt;a&gt;</code>) pointing to the respective HTML file. The CSS styles are applied to the navigation menu to make it horizontal, remove default list styles, and add hover effects.</li>
+                <li><strong>Content</strong>: The main content of each page is contained within the <code>&lt;main&gt;</code> section. The <code>index.html</code> file contains a welcome message, the <code>about.html</code> file has information about the website and the author, and the <code>blog.html</code> file is meant to showcase an excerpt from a book or article.</li>
+                <li><strong>Styling</strong>: The CSS styles are embedded within the <code>&lt;head&gt;</code> section of each HTML file using the <code>&lt;style&gt;</code> tag. The styles define the overall look and feel of the website, including the dark background color, white text color, font styles, and layout.</li>
+                <li><strong>Active Page Highlight</strong>: The navigation menu includes a visual cue to indicate the currently active page. This is achieved by adding the <code>class="active"</code> attribute to the corresponding navigation link. The CSS styles target the <code>.active</code> class and apply the same background color as the hover effect, making the active link stand out.</li>
+                <li><strong>Linking</strong>: The navigation links connect the different pages of the website. When a user clicks on a link, the corresponding HTML file is loaded and displayed in the browser. The relative paths (<code>../index.html</code>, <code>about.html</code>, <code>blog.html</code>) are used to navigate between the pages.</li>
+            </ol>
+            
+            <p>Overall, this website showcases a basic understanding of HTML and CSS, including structure, navigation, content organization, and styling. It demonstrates the fundamental concepts of building a multi-page website with a consistent look and feel across all pages.</p>
+            
+            <p>While this website is static and does not involve any server-side processing or dynamic content, it serves as a starting point for learning web development and can be further extended with additional features and functionality as needed.</p>
+        </div>
+    </main>
+    <footer>
+        &copy; Praveen Marella
+    </footer>
+</body>
+</html>
